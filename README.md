@@ -33,18 +33,23 @@ Simulation environments have been prepared, including TurtleBot3 World which i u
 
 $ export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
+<img width="380" alt="gaza" src="https://github.com/user-attachments/assets/14124655-382a-45a2-966c-7c67ff64ebe8"> 
+
 Opening SLAM
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
-tur
-create a map and save it
+
+<img width="277" alt="opinning slam" src="https://github.com/user-attachments/assets/46ee78e4-40a4-402f-aaec-3edbea7b66c3">
+
+Create a map:
 
 rosrun map_server map_saver -f ~/map
-then run this command:
+then write the command:
 
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-89
+
 navigation
-start the navigation and load the saved map, using this command:
+Start the navigation and load the saved map, using this command:
 
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:='/home/muh/map.yaml'
-90
+<img width="299" alt="lastph" src="https://github.com/user-attachments/assets/06fa7d79-4b01-4d4b-8574-a5a908a31a06">
+
