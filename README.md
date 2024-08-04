@@ -1,5 +1,6 @@
 # Launch-TurtleBot-navigation
 First step/ write these command in Terminal
+
 $ sudo apt update
 $ sudo apt upgrade
 $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
